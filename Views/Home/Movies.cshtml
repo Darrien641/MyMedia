@@ -1,0 +1,21 @@
+﻿@model IEnumerable<MyMedia.Models.Movie>
+@inject MyMedia.Models.IMoviesRepos MoviesRepos
+@using System.IO
+@{
+    ViewData["Title"] = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div>
+    <h1>@ViewData["Title"]</h1>
+    <div class="text-center">
+        @foreach (Movie m in Model)
+        {
+                <img class="img-thumbnail" src="~/Images/Movies/@m.ImagePath"  height="400" width="250"/>
+                <div>Title: @m.MovieTitle </div>
+                <div>Genre: @m.Genre </div>
+                <div>Release Date: @m.ReleaseDate.ToString("yyyy")</div>
+                <div>Notes: @m.Notes</div>
+           
+        }
+    </div>
+</div>

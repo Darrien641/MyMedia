@@ -1,0 +1,23 @@
+﻿@model IEnumerable<MyMedia.Models.Book>
+@inject MyMedia.Models.IBookRepos BookRepos
+@{
+    ViewData["Title"] = "Books";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<div>
+    <h1>@ViewData["Title"]</h1>
+    <div class="text-center">
+        @foreach (Book b in Model)
+        {
+            <img class ="img-thumbnail" src="~/Images/Books/@b.ImagePath" height="400" width="250"/>
+            <div>Title: @b.BookTitle </div>
+            <div>Author: @b.AuthorFirstname @b.AuthorLastname </div>
+            <div>ISBN: @b.ISBN</div>
+            <div>Edition: @b.Edition</div>
+            <div>Publish Date: @b.PublishDate.ToString("yyyy")</div>
+            <div>Notes: @b.Notes</div>
+        }
+    </div>
+</div>

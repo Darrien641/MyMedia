@@ -1,0 +1,19 @@
+﻿@model IEnumerable<MyMedia.Models.Album>
+@inject MyMedia.Models.IAlbumRepos AlbumRepos
+@{
+    ViewData["Title"] = "Albums";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div>
+        <h1>@ViewData["Title"]</h1>
+        <div class="text-center">
+            @foreach (Album a in Model)
+            {
+                <img class="img-thumbnail" src="~/Images/Albums/@a.ImagePath" width="250" height="250" />
+                <div>Title: @a.AlbumTitle </div>
+                <div>Artist: @a.Artist </div>
+                <div>Notes: @a.Notes</div>
+            }
+        </div>
+    </div>
