@@ -10,12 +10,12 @@
     <div class="text-center">
         @foreach (Movie m in Model)
         {
-                <img class="img-thumbnail" src="~/Images/Movies/@m.ImagePath"  height="400" width="250"/>
-                <div>Title: @m.MovieTitle </div>
-                <div>Genre: @m.Genre </div>
-                <div>Release Date: @m.ReleaseDate.ToString("yyyy")</div>
-                <div>Notes: @m.Notes</div>
-           
+            <img class="img-thumbnail" src="~/Images/Movies/@m.ImagePath" height="400" width="250" />
+            <div>Title: @m.MovieTitle </div>
+            <div>Genre: @m.Genre </div>
+            <div>Release Date: @m.ReleaseDate.ToString("yyyy")</div>
+            <p>Notes: @m.Notes</p>
+
         }
-    </div>
+        </div>
 </div>

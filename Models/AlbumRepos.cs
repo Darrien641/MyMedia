@@ -21,13 +21,13 @@ namespace MyMedia.Models
                     ImagePath ="ReadyToDie.jpg",
                     AlbumTitle = "Ready To Die",
                     Artist = "Biggie Smalls",
-                    Notes = ""
+                    Notes = "Biggie smalls first studio album, you can hear the lyricism and word play begin to evolve throught the album. I think this is where emotions began to make its way into rap music."
                 },
                 new Album{
                     ImagePath ="K.O.D.Jpg",
                     AlbumTitle = "K.O.D.",
                     Artist = "Tech N9ne",
-                    Notes = ""
+                    Notes = "Tech N9ne's 9th studio album"
                 },
                 new Album{
                     ImagePath ="TechN9ne-Killer.jpg",
