@@ -24,7 +24,7 @@ namespace MyMedia.Models
                     BookTitle ="Clean Code",
                     Edition ="First Edition", 
                     PublishDate = new DateTime(2008,01,01) , 
-                    Notes = ""
+                    Notes = "This book has a lot of principals and views about how to solidify the basics of programming. This book is great for any programmer who wants to keep thier skills crisp and continue learning as they code. I really enjoyed how this book continues to stay fairly relevant."
                 },
                 new Book{
                     ImagePath ="CleanCoder.jpg",
@@ -34,7 +34,7 @@ namespace MyMedia.Models
                     BookTitle ="Clean Coder",
                     Edition ="First Edition", 
                     PublishDate = new DateTime(2011,01,01) , 
-                    Notes = "" 
+                    Notes = "This book is a great book for learning the fundamental and ethical foundation of creating programs. As well as the administrative side of how to deal with writing good and consise code. I think that this book could help programmers outside of thier coding lives as well." 
                 },
                 new Book{
                     ImagePath ="emerald.jpg",
@@ -44,7 +44,7 @@ namespace MyMedia.Models
                     BookTitle ="The Emerald Tablet Of Hermes & The Kybalion: Two Classic Bookson Hermetic Philosophy",
                     Edition ="First Edition", 
                     PublishDate = new DateTime(2008,01,01) , 
-                    Notes = ""
+                    Notes = "An interessting book if you like to read about egyptian and greek mythology. This book was said to have been a written collection the Greek God Hermes teachings, which is the foundation for alchemy and hermetecism. I find these very interesting philosophies, with all kinds of mysticism intertwined. I guess you could say it was the bible of alchemy."
                 },
                 new Book{
                     ImagePath ="Justice.jpg",
@@ -54,7 +54,7 @@ namespace MyMedia.Models
                     BookTitle ="Justice: What's the Right Thing to Do?",
                     Edition ="Reprint edition", 
                     PublishDate = new DateTime(2010,01,01),
-                    Notes = ""
+                    Notes = "A very unbiased book that leaves me with more existential questions about life than answers, but this book healthily explores all kinds of avenues and philosophies that resonated with me in more ways than one. I really enjoyed reading this book becasue it's really thought provoking."
                 },
                 new Book{
                     ImagePath ="Outsiders.jpg",
@@ -64,7 +64,7 @@ namespace MyMedia.Models
                     BookTitle ="The Ousiders",
                     Edition ="Platnum Edition", 
                     PublishDate = new DateTime(2006,01,01),
-                    Notes = "" 
+                    Notes = "The outsiders is always a favorite of mine not only because of pop culture references, but becasue its a amazing book about some kids who are constantly on the outside looking in, this book will always be relevent not only because of recent events but because of the social inequalities amoungst everbody in our society. " 
                 },
 
             };
